@@ -12,11 +12,15 @@ export class PostService {
   }
 
   getPostById(postId: number) {
-    for(var i = 0; i <= POSTS.length -1; i++) {
+    for( let i = 0; i <= POSTS.length - 1; i++) {
       if (POSTS[i].id === postId) {
         return POSTS[i];
       }
     }
+  }
+
+  addPostToArray(newPostToAdd) {
+    POSTS.push(newPostToAdd);
   }
 
 }

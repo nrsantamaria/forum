@@ -1,1 +1,9 @@
 <h3>Welcome to our Forum!</h3>
+
+<a routerLink="new-posts">Create A New Post</a>
+
+<div *ngFor="let post of posts">
+  <ul>
+    <li>{{post.category}}</li>
+  </ul>
+</div>

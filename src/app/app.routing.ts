@@ -20,11 +20,11 @@ const appRoutes: Routes = [
     component: PostDetailComponent
   },
   {
-    path: 'posts/new',
+    path: 'new-posts',
     component: NewPostComponent
   },
   {
-    path: 'posts/:id/edit',
+    path: 'posts-edit/:id',
     component: EditPostComponent
   }
 ];

@@ -13,7 +13,10 @@ import { PostService } from '../post.service';
 export class PostsComponent implements OnInit {
   posts: Post[];
 
-  constructor(private router: Router, private postService: PostService) { }
+  constructor(
+    private router: Router,
+    private postService: PostService
+  ) { }
 
   ngOnInit() {
     this.posts = this.postService.getPosts();

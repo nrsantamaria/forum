@@ -1,3 +1,23 @@
-<p>
-  new-post works!
-</p>
+<div>
+  <div class="form-group">
+    <label for="title">Title of Post:</label>
+    <input #newTitle>
+  </div>
+  <div class="form-group">
+    <label for="author">Author of Post:</label>
+    <input #newAuthor>
+  </div>
+  <div class="form-group">
+    <label for="content">Content:</label>
+    <input #newContent>
+  </div>
+  <div class="form-group">
+    <label for="category">Category of Post:</label>
+    <input #newCategory>
+  </div>
+  <div class="form-group">
+    <label for="image">Image:</label>
+    <input type="url" #newImage>
+  </div>
+  <button (click)="submitForm(newCategory.value, newTitle.value, newContent.value, newAuthor.value, newImage.value); redirect()">Submit</button>
+</div>
