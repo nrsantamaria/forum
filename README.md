@@ -1,28 +1,41 @@
 # Forum
+### By Nicole Santamaria and Jason Ainsworth
 
+## Description
+This app allows users to make posts on whatever topics they want.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You will need the following things properly installed on your computer.
 
-## Code scaffolding
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with NPM)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Installation
 
-## Build
+* `git clone https://github.com/nrsantamaria/forum`
+* `cd forum`
+* `npm install`
+* `bower install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Building
+* `gulp build`
 
-## Running unit tests
+## Running / Development
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* `gulp serve`
+* Visit your app at [http://localhost:3000](http://localhost:3000).
 
-## Running end-to-end tests
+## Useful Tips
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* To review content in atom with TypeScript Package install the following:
+* `apm install atom-typescript`
 
-## Further help
+## Support and Contact Details
+Please contact Nicole Santamaria at NicoleRSantamaria@gmail.com if you have any questions.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+This software is licensed under MIT license.
+
+Copyright (c) 2017 Nicole Santamaria
